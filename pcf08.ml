@@ -16,7 +16,7 @@ type term =
 | Let of string * term * term
 
 (* Оснащённые значения (extended values). ДЛ, с. 59 *)
-
+ 
 type value =
 | ValInt of int
 | Closure of string * term * environment
