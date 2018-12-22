@@ -307,7 +307,7 @@ let dterm4 = Let("z", Int 1, Let("f", Abs("y", Plus(Var "z", Var "y")),Let("x", 
 (* Задание 10.5. Написать рекурсивную функцию без fix и комбинаторов неподвижной точки в динамическом интерпретаторе *)
 
 (*
-Let f = λn.ifz n then 1 else n * f n-1 in 
+Let f = λn.ifz n then 1 else n * g n-1 in 
 	Let g = f in λg.n
 *)
 
